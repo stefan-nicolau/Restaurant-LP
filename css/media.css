@@ -1,0 +1,104 @@
+@media (max-width: 768px) {
+    /*header*/
+    /*header, .break-fast, .lunch, .dinner, .last-blog {
+        background-attachment: local;
+        overflow: hidden;
+    }*/
+    
+    
+    /*breakfast*/
+    .break-fast .col-xs-8 {
+        float: left;
+        margin-top:10px;
+    }
+    
+    /*lunch*/
+    .lunch {
+        background-position: 65% 50%;   
+    }
+    .lunch .col-xs-8 {
+        float: left;
+        margin-top:10px;
+    }
+    
+    /*dinner*/ 
+    .dinner .col-xs-8 {
+        float: none;
+        margin-top:10px;
+    }
+    
+    /*discover*/
+    .discover .row .col-md-4{
+        text-align: center;
+        margin-top: 30px;
+    }
+    .discover .row .col-md-4 h2 {
+        font-size:20px;   
+    }
+    .discover .row .col-md-4 h2:after {
+        margin: 30px auto;
+    }
+
+    
+    /*food-gallery*/
+    .food-gallery .container .row .col-sm-8 p{
+        width: 100%;   
+    }
+    .food-gallery li  {
+        letter-spacing: 0;
+        padding: 10px;
+    }
+    
+    /*last blog*/
+    .last-blog .col-md-6 .col-md-6:last-of-type {
+        padding: 10px;
+    }
+    .last-blog .col-md-6 span {
+        margin: 17px auto;
+        
+    }
+    .last-blog .col-md-6 h4 {
+        font-size: 13px;
+        font-weight: bold;
+        line-height: normal;
+    }
+    .last-blog .col-md-6 .col-md-6:last-of-type:before {
+        top:90px;
+        left:-30px;
+        border-width: 15px;
+    }
+    
+    /*contact us*/
+    .contact-us .col-md-6  {
+        text-align: center;
+    }
+    
+    .contact-us .col-md-6 .box p {
+        width:100%;   
+    }
+    .contact-us .col-md-6 i {
+        float: none;
+        height: 50px;
+        display: inline-block;
+    }
+    .contact-us .col-md-6 .box {
+        float: none;   
+    }
+    .contact-us .row .clearfix {
+        margin: 20px auto;
+    }
+    .contact-us input.submit {
+        width:60%;
+        margin: 10px auto;
+    }
+}
+
+@media (max-width: 991px) {
+
+
+}
+
+@media (max-width: 1199px) {
+    
+
+}
